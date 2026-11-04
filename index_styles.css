@@ -1,0 +1,63 @@
+/* J.Hulin */
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: rgb(223, 212, 197);
+  padding: 3px;
+  border: 6px;
+  border-radius: 3px;
+  width: 500px;
+}
+
+article p {
+  background-color: rgb(40, 95, 147);
+  width: 1px;
+  border-radius: 1px;
+}
+
+nav {
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+h2, h3, h4 {
+  text-align: left;
+  font-family: 'Futura Std', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Futura Std', sans-serif;
+  border: 8px;
+  border-radius: 4px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 60%;
+  height: 80%;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1523861751938-121b5323b48b?q=80&w=2062&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+  background-repeat: no-repeat;
+}
+
+a:hover {
+  color: rgb(70, 5, 0);
+}
+
+p {
+  font-family: "Calisto MT", "Bookman Old Style", Georgia, "Times New Roman", serif;
+}
+
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color: rgb(225, 106, 66);
+  color: white;
+  font-family: 'Futura Std', sans-serif;
+}
+

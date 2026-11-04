@@ -1,0 +1,77 @@
+/* J.Hulin*/
+
+/* .red{display:inline}*/
+.sticky 
+    {
+      position: sticky; /* Acts like relative until scrolling past its top value, then it sticks */
+      top: 0; /* Become§lled to the top of the viewport */
+      background-color: rgb(147, 104, 40);
+      padding: 1px;
+    }
+
+body
+    {background-color: #972929;}
+p
+    {   
+        width: 400px;
+        height: 150px;
+        margin: 20px;
+    }
+
+img 
+   {
+        display: block;
+        margin: auto;
+        width: 60%;
+        height: 80%;
+    }
+nav{
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+a:link
+    {
+        color: rgb(0, 0, 0);
+     }
+
+p 
+    {
+        text-align: left;
+        color: rgb(135, 9, 9);
+        font-family: Monaco, Consolas, "Courier New", monospace;
+        font-size: 10px;
+     }
+     footer
+    {
+        text-align: center;
+        padding: 1px;
+        background-color: rgb(107, 37, 14);
+        color: white;
+        font-family: 'Futura Std', sans-serif;
+    }
+#footerpage
+    {
+        text-align: center;
+    }
+a:hover
+    {
+        color: rgb(70, 5, 0);
+    }
+h1
+    {
+    
+        font-family: 'Futura Std', sans-serif;
+        text-align: center ;
+        background-color: rgb(227, 106, 106) width 200 px;
+
+    }
+h2
+    {
+        font-family: "Silkscreen", sans-serif;
+        color: rgb(252, 252, 252);
+    }
+           h3{
+        font-family: "Silkscreen", sans-serif;
+        color: rgb(252, 252, 252);
+    }
+
