@@ -3,17 +3,16 @@
 .sticky {
   position: sticky;
   top: 0;
-  background-color: rgb(223, 212, 197);
+  background-color: rgb(250, 250, 249);
   padding: 3px;
-  border: 6px;
-  border-radius: 3px;
-  width: 500px;
+  
+  
 }
 
-article p {
-  background-color: rgb(40, 95, 147);
-  width: 1px;
-  border-radius: 1px;
+ summary  {
+  background-color: rgb(255, 255, 255);
+  width: 820px;
+  font-family: "Calisto MT", "Bookman Old Style", Georgia, "Times New Roman", serif;
 }
 
 nav {
@@ -24,34 +23,35 @@ nav {
 h2, h3, h4 {
   text-align: left;
   font-family: 'Futura Std', sans-serif;
+  background-color: rgb(255, 255, 255);
+  border: 8px;
+  border-radius: 4px;
+  width: 40%
 }
 
 h1 {
   text-align: center;
   font-family: 'Futura Std', sans-serif;
   border: 8px;
-  border-radius: 4px;
+  
 }
 
 img {
-  display: block;
+  align-items:center;
   margin: auto;
   width: 60%;
   height: 80%;
 }
 
 body {
-  background-image: url('https://images.unsplash.com/photo-1523861751938-121b5323b48b?q=80&w=2062&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
-  background-repeat: no-repeat;
+  background-image: url('https://plus.unsplash.com/premium_photo-1792756284388-65c985ea6aca?q=80&w=2014&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+
 }
 
 a:hover {
   color: rgb(70, 5, 0);
 }
 
-p {
-  font-family: "Calisto MT", "Bookman Old Style", Georgia, "Times New Roman", serif;
-}
 
 footer {
   text-align: center;
